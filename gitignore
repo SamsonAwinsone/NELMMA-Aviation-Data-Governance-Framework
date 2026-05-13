@@ -1,0 +1,53 @@
+# NELMMA Aviation Data Governance Framework — .gitignore
+
+# ─── SENSITIVE DATA (NEVER COMMIT) ───────────────────────────
+data/raw/
+data/personal/
+data/operational/
+*.csv
+*.xlsx
+*.json
+secrets/
+*.env
+*.key
+credentials/
+
+# ─── OFFICE TEMP FILES ─────────────────────────────────────────
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# ─── OS FILES ──────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─── IDE / EDITOR FILES ────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── BUILD & PACKAGE FILES ─────────────────────────────────────
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+dist/
+build/
+
+# ─── LOGS ──────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── DRAFT FILES (use naming convention instead) ───────────────
+*_DRAFT.*
+*_WIP.*
+*_OLD.*
