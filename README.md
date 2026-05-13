@@ -16,7 +16,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Executive Summary](#-executive-summary)
 - [Business Problem](#-business-problem)
@@ -39,7 +39,7 @@
 
 ---
 
-## 🎯 Executive Summary
+## Executive Summary
 
 This repository documents the end-to-end design and implementation of a **Data Governance Framework** for **Nelmma Aviation**, a Ghana-based non-scheduled aviation and logistics company with over 20 years of operational experience. Nelmma operates across air and sea freight, cargo consolidation, ground handling, and executive aviation services, with active markets spanning **Nigeria, Liberia, Mali, China, and Belgium** and expansion plans targeting Central Africa and Europe.
 
@@ -54,7 +54,7 @@ The resulting framework is aligned with **DAMA-DMBOK**, **ISO 38505**, **ISO 270
 
 ---
 
-## 🔴 Business Problem
+## Business Problem
 
 ### The Governance Vacuum
 
@@ -80,7 +80,7 @@ This mirrors genuine enterprise consulting dynamics, where client selection, tru
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 1. **Assess** the current state of data governance at Nelmma Aviation using structured interviews, surveys, and document review
 2. **Design** a governance framework tailored to aviation & logistics data — cargo manifests, passenger records, customs data, financial records, partner integrations
@@ -93,7 +93,7 @@ This mirrors genuine enterprise consulting dynamics, where client selection, tru
 
 ---
 
-## 🏛️ Governance Framework Overview
+## Governance Framework Overview
 
 The NELMMA Data Governance Framework is built on three foundational pillars:
 
@@ -125,7 +125,7 @@ The NELMMA Data Governance Framework is built on three foundational pillars:
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```
                         ┌─────────────────────────────┐
@@ -159,7 +159,7 @@ The NELMMA Data Governance Framework is built on three foundational pillars:
 
 ---
 
-## 🔧 Key Framework Components
+## Key Framework Components
 
 ### 1. Data Governance Committee
 A cross-functional body comprising the CEO, department heads, and the Data Governance Lead. Responsible for approving policies, resolving disputes, and setting the data strategy.
@@ -204,7 +204,7 @@ Tracks data flow end-to-end — from collection, through processing, to storage 
 
 ---
 
-## 🔄 Governance Lifecycle
+## Governance Lifecycle
 
 ```
   ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
@@ -226,7 +226,7 @@ Tracks data flow end-to-end — from collection, through processing, to storage 
 
 ---
 
-## 👥 Stakeholder Roles & RACI
+## Stakeholder Roles & RACI
 
 | Activity | CEO | DG Lead | Data Owner | Data Steward | IT Custodian | HR/Training | End Users |
 |---|---|---|---|---|---|---|---|
@@ -243,7 +243,7 @@ Tracks data flow end-to-end — from collection, through processing, to storage 
 
 ---
 
-## 📜 Policies & Standards
+## Policies & Standards
 
 ### Policy Framework Structure
 
@@ -264,14 +264,14 @@ nelmma-dg-repo/
 
 | Classification Level | Description | Examples | Access |
 |---|---|---|---|
-| 🔴 **Confidential** | Highly sensitive, legal risk if exposed | Passport data, financial records, GSSA contracts | Executive + DPO only |
-| 🟠 **Restricted** | Internal use; limited sharing | Cargo manifests, customer PII, employee HR records | Role-based (need-to-know) |
-| 🟡 **Internal** | General business operations data | Flight schedules, route data, internal reports | All staff |
-| 🟢 **Public** | Approved for external publication | Service descriptions, market presence, press releases | Anyone |
+|  **Confidential** | Highly sensitive, legal risk if exposed | Passport data, financial records, GSSA contracts | Executive + DPO only |
+|  **Restricted** | Internal use; limited sharing | Cargo manifests, customer PII, employee HR records | Role-based (need-to-know) |
+|  **Internal** | General business operations data | Flight schedules, route data, internal reports | All staff |
+|  **Public** | Approved for external publication | Service descriptions, market presence, press releases | Anyone |
 
 ---
 
-## 🌍 Regulatory Compliance Alignment
+## Regulatory Compliance Alignment
 
 | Regulation | Jurisdiction | Key Requirements | Nelmma Application |
 |---|---|---|---|
@@ -283,7 +283,7 @@ nelmma-dg-repo/
 
 ---
 
-## 🗺️ Implementation Roadmap
+## Implementation Roadmap
 
 ### Phase Overview
 
@@ -299,32 +299,32 @@ nelmma-dg-repo/
 ### Detailed Roadmap by Year
 
 **Year 1–2 (Setup & Enablement)**
-- ✅ Appoint Data Governance Lead and establish committee
-- ✅ Define and document all data domains and ownership
-- ✅ Draft, review, and publish all core data policies
-- ✅ Deploy RBAC-based access control system
-- ✅ Launch first training cohort for all staff
+-  Appoint Data Governance Lead and establish committee
+-  Define and document all data domains and ownership
+-  Draft, review, and publish all core data policies
+-  Deploy RBAC-based access control system
+-  Launch first training cohort for all staff
 
 **Year 2–3 (Integration)**
-- 📋 Implement centralized metadata repository
-- 📋 Integrate governance tools with cargo and flight management systems
-- 📋 Establish data lineage tracking for all critical data flows
-- 📋 First full compliance audit under Act 843
+-  Implement centralized metadata repository
+-  Integrate governance tools with cargo and flight management systems
+-  Establish data lineage tracking for all critical data flows
+-  First full compliance audit under Act 843
 
 **Year 3–4 (Governance)**
-- 📋 Begin quarterly audit cycle and stakeholder reporting
-- 📋 Introduce data governance maturity assessments
-- 📋 Expand training to include regulatory changes and emerging risks
+-  Begin quarterly audit cycle and stakeholder reporting
+-  Introduce data governance maturity assessments
+-  Expand training to include regulatory changes and emerging risks
 
 **Year 4–6 (Optimization & Scale)**
-- 📋 Extend framework to new markets: UK, Central Africa, China hub
-- 📋 Automate compliance monitoring and reporting
-- 📋 Pursue formal ISO 27001 certification
-- 📋 Build data governance playbook for international subsidiaries
+-  Extend framework to new markets: UK, Central Africa, China hub
+-  Automate compliance monitoring and reporting
+-  Pursue formal ISO 27001 certification
+-  Build data governance playbook for international subsidiaries
 
 ---
 
-## 📊 KPIs & Success Metrics
+## KPIs & Success Metrics
 
 | KPI Category | Metric | Target | Measurement Frequency |
 |---|---|---|---|
@@ -339,7 +339,7 @@ nelmma-dg-repo/
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Category | Tool / System | Purpose |
 |---|---|---|
@@ -355,7 +355,7 @@ nelmma-dg-repo/
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 nelmma-aviation-data-governance/
@@ -457,7 +457,7 @@ nelmma-aviation-data-governance/
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 
 ### Operational Efficiency
 A structured governance framework eliminates the data ambiguity that slows operations. When cargo, flight, and customs teams work from a single source of truth, scheduling errors decrease, handoffs improve, and delays are reduced.
@@ -476,7 +476,7 @@ The framework is designed to scale with the business — from a Ghana-centric op
 
 ---
 
-## ✅ Recommendations
+## Recommendations
 
 1. **Appoint a Dedicated Data Governance Lead** — A full-time role responsible for day-to-day policy enforcement, training coordination, and audit management
 2. **Establish the Data Governance Committee** within Month 1 — With CEO endorsement and cross-departmental representation
@@ -488,7 +488,7 @@ The framework is designed to scale with the business — from a Ghana-centric op
 
 ---
 
-## 🎓 Lessons Learned
+## Lessons Learned
 
 | Lesson | Context | Takeaway |
 |---|---|---|
@@ -500,7 +500,7 @@ The framework is designed to scale with the business — from a Ghana-centric op
 
 ---
 
-## 👨‍💼 Team
+## Team
 
 | Name | Student ID |
 |---|---|
@@ -522,7 +522,7 @@ The framework is designed to scale with the business — from a Ghana-centric op
 
 ---
 
-## 📚 References
+## References
 
 - DAMA International. (2017). *DAMA-DMBOK: Data Management Body of Knowledge* (2nd ed.). Technics Publications.
 - Ghana Data Protection Commission. (2012). *Data Protection Act, 2012 (Act 843)*. Government of Ghana.
@@ -539,6 +539,6 @@ The framework is designed to scale with the business — from a Ghana-centric op
 *This project represents a real-world consulting engagement conducted as part of OMIS 312 coursework.*  
 *All framework content is based on primary stakeholder data collected from Nelmma Aviation.*
 
-**⭐ If this framework helped your understanding of data governance, please star this repository.**
+** If this framework helped your understanding of data governance, please star this repository.**
 
 </div>
