@@ -21,7 +21,7 @@ Enterprise-Grade Data Governance Framework for a Ghana-Based Aviation &amp; Logi
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 
 - [Executive Summary](#-executive-summary)
@@ -45,7 +45,7 @@ Enterprise-Grade Data Governance Framework for a Ghana-Based Aviation &amp; Logi
 
 ---
 
-## 🎯 Executive Summary
+## Executive Summary
 
 This repository documents the end-to-end design and implementation of a **Data Governance Framework** for **Nelmma Aviation**, a Ghana-based non-scheduled aviation and logistics company with over 20 years of operational experience. Nelmma operates across air and sea freight, cargo consolidation, ground handling, and executive aviation services, with active markets spanning **Nigeria, Liberia, Mali, China, and Belgium** and expansion plans targeting Central Africa and Europe.
 
@@ -60,7 +60,7 @@ The resulting framework is aligned with **DAMA-DMBOK**, **ISO 38505**, **ISO 270
 
 ---
 
-## 🔴 Business Problem
+## Business Problem
 
 ### The Governance Vacuum
 
@@ -86,7 +86,7 @@ This mirrors genuine enterprise consulting dynamics, where client selection, tru
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 1. **Assess** the current state of data governance at Nelmma Aviation using structured interviews, surveys, and document review
 2. **Design** a governance framework tailored to aviation & logistics data — cargo manifests, passenger records, customs data, financial records, partner integrations
@@ -99,7 +99,7 @@ This mirrors genuine enterprise consulting dynamics, where client selection, tru
 
 ---
 
-## 🏛️ Governance Framework Overview
+## Governance Framework Overview
 
 The NELMMA Data Governance Framework is built on three foundational pillars:
 
@@ -131,7 +131,7 @@ The NELMMA Data Governance Framework is built on three foundational pillars:
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```
                         ┌─────────────────────────────┐
@@ -165,7 +165,7 @@ The NELMMA Data Governance Framework is built on three foundational pillars:
 
 ---
 
-## 🔧 Key Framework Components
+## Key Framework Components
 
 ### 1. Data Governance Committee
 A cross-functional body comprising the CEO, department heads, and the Data Governance Lead. Responsible for approving policies, resolving disputes, and setting the data strategy.
@@ -210,7 +210,7 @@ Tracks data flow end-to-end — from collection, through processing, to storage 
 
 ---
 
-## 🔄 Governance Lifecycle
+## Governance Lifecycle
 
 ```
   ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
@@ -249,7 +249,7 @@ Tracks data flow end-to-end — from collection, through processing, to storage 
 
 ---
 
-## 📜 Policies & Standards
+## Policies & Standards
 
 ### Policy Framework Structure
 
@@ -345,7 +345,7 @@ nelmma-dg-repo/
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Category | Tool / System | Purpose |
 |---|---|---|
