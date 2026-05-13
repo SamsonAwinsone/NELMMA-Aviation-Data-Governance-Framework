@@ -289,7 +289,7 @@ nelmma-dg-repo/
 
 ---
 
-## 🗺️ Implementation Roadmap
+## Implementation Roadmap
 
 ### Phase Overview
 
@@ -330,7 +330,7 @@ nelmma-dg-repo/
 
 ---
 
-## 📊 KPIs & Success Metrics
+## KPIs & Success Metrics
 
 | KPI Category | Metric | Target | Measurement Frequency |
 |---|---|---|---|
@@ -361,7 +361,7 @@ nelmma-dg-repo/
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 nelmma-aviation-data-governance/
@@ -463,7 +463,7 @@ nelmma-aviation-data-governance/
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 
 ### Operational Efficiency
 A structured governance framework eliminates the data ambiguity that slows operations. When cargo, flight, and customs teams work from a single source of truth, scheduling errors decrease, handoffs improve, and delays are reduced.
@@ -482,7 +482,7 @@ The framework is designed to scale with the business — from a Ghana-centric op
 
 ---
 
-## ✅ Recommendations
+## Recommendations
 
 1. **Appoint a Dedicated Data Governance Lead** — A full-time role responsible for day-to-day policy enforcement, training coordination, and audit management
 2. **Establish the Data Governance Committee** within Month 1 — With CEO endorsement and cross-departmental representation
@@ -494,7 +494,7 @@ The framework is designed to scale with the business — from a Ghana-centric op
 
 ---
 
-## 🎓 Lessons Learned
+## Lessons Learned
 
 | Lesson | Context | Takeaway |
 |---|---|---|
@@ -506,7 +506,7 @@ The framework is designed to scale with the business — from a Ghana-centric op
 
 ---
 
-## 👨‍💼 Team
+## Team
 
 | Name | Student ID |
 |---|---|
@@ -528,7 +528,7 @@ The framework is designed to scale with the business — from a Ghana-centric op
 
 ---
 
-## 📚 References
+## References
 
 - DAMA International. (2017). *DAMA-DMBOK: Data Management Body of Knowledge* (2nd ed.). Technics Publications.
 - Ghana Data Protection Commission. (2012). *Data Protection Act, 2012 (Act 843)*. Government of Ghana.
